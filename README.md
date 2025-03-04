@@ -2,7 +2,8 @@
 Library for controlling the HDSP2000 display on Arduino. It is based on interrupts, so you can use delays like delay(), although it's better to use millis(). The library is not perfect, pixels slightly darken when too many of them are lit either across the entire display or in a particular column.
 
 # Using
-Download and paste files like this: ![image](https://github.com/user-attachments/assets/ddb24015-0b9f-4c36-b969-ea0fde19f843)
+Download and paste files like this: 
+![image](https://github.com/user-attachments/assets/ddb24015-0b9f-4c36-b969-ea0fde19f843)
 Connect display to arduino, supply voltage is 5V
 You can change pinout in the HDSP2000.h
 Upload demo file 
